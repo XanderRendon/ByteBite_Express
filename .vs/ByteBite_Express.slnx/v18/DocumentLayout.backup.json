@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\VsCodeProjects\\ByteBite_Express\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D6EDE61E-303B-4704-9D22-F7B4FBF0F769}|ByteBite_Express\\ByteBite_Express.csproj|c:\\users\\user\\documents\\vscodeprojects\\bytebite_express\\bytebite_express\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D6EDE61E-303B-4704-9D22-F7B4FBF0F769}|ByteBite_Express\\ByteBite_Express.csproj|solutionrelative:bytebite_express\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6EDE61E-303B-4704-9D22-F7B4FBF0F769}|ByteBite_Express\\ByteBite_Express.csproj|c:\\users\\user\\documents\\vscodeprojects\\bytebite_express\\bytebite_express\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6EDE61E-303B-4704-9D22-F7B4FBF0F769}|ByteBite_Express\\ByteBite_Express.csproj|solutionrelative:bytebite_express\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6EDE61E-303B-4704-9D22-F7B4FBF0F769}|ByteBite_Express\\ByteBite_Express.csproj|c:\\users\\user\\documents\\vscodeprojects\\bytebite_express\\bytebite_express\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6EDE61E-303B-4704-9D22-F7B4FBF0F769}|ByteBite_Express\\ByteBite_Express.csproj|solutionrelative:bytebite_express\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\VsCodeProjects\\ByteBite_Express\\ByteBite_Express\\Form1.cs",
+              "RelativeDocumentMoniker": "ByteBite_Express\\Form1.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\VsCodeProjects\\ByteBite_Express\\ByteBite_Express\\Form1.cs [Design]",
+              "RelativeToolTip": "ByteBite_Express\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-19T13:24:38.475Z",
+              "EditorCaption": " [Design]",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\VsCodeProjects\\ByteBite_Express\\ByteBite_Express\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "ByteBite_Express\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\VsCodeProjects\\ByteBite_Express\\ByteBite_Express\\Form1.Designer.cs",
+              "RelativeToolTip": "ByteBite_Express\\Form1.Designer.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAYwHgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-19T12:33:45.527Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\VsCodeProjects\\ByteBite_Express\\ByteBite_Express\\Form1.cs",
+              "RelativeDocumentMoniker": "ByteBite_Express\\Form1.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\VsCodeProjects\\ByteBite_Express\\ByteBite_Express\\Form1.cs",
+              "RelativeToolTip": "ByteBite_Express\\Form1.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAD4vxUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-19T13:05:05.666Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
