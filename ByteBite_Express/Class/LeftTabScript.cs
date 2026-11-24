@@ -5,10 +5,8 @@ using System.Windows.Forms;
 public class LeftTabScript
 {
     private TouchTriggerButton[] categoryButtons = Array.Empty<TouchTriggerButton>();
-    private Label? CategoryDisplayLabel;
-    public void Run(TouchTriggerButton[] buttons, Label displayLabel) {
+    public void Run(TouchTriggerButton[] buttons) {
         categoryButtons = buttons;
-        CategoryDisplayLabel = displayLabel;
         AppState.SelectedValueChanged += SetSelectedButtonGroup;
         for (int i = 0; i < categoryButtons.Length; i++) {
             int categoryId = i + 1;
@@ -17,16 +15,15 @@ public class LeftTabScript
         SetSelectedButtonGroup();
     }
     private void SetSelectedButtonGroup() {
-        if (AppState.SelectedValue < 1 || AppState.SelectedValue > categoryButtons.Length) {return;}
+        if (AppState.SelectedCategoryValue < 1 || AppState.SelectedCategoryValue > categoryButtons.Length) {return;}
         foreach (TouchTriggerButton btn in categoryButtons) {
             btn.Enabled = true;
             btn.BackColor = Color.Transparent;
         }
-        categoryButtons[AppState.SelectedValue - 1].Enabled = false;
-        categoryButtons[AppState.SelectedValue - 1].BackColor = Color.FromArgb(245, 238, 224);
-        CategoryDisplayLabel.Text = categoryButtons[AppState.SelectedValue - 1].Text;
+        categoryButtons[AppState.SelectedCategoryValue - 1].Enabled = false;
+        categoryButtons[AppState.SelectedCategoryValue - 1].BackColor = Color.FromArgb(245, 238, 224);
     }
     private void CategoryBtn_Click(int value) {
-        AppState.SelectedValue = value;
+        AppState.SelectedCategoryValue = value;
     }
 }

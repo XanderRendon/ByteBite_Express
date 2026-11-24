@@ -42,9 +42,9 @@
             categoryLabel = new Label();
             TabRight = new Panel();
             tableLayoutPanel4 = new TableLayoutPanel();
+            MenuGrid = new TableLayoutPanel();
             CategoryDisplayLabel = new Label();
             panel1 = new Panel();
-            MenuGrid = new TableLayoutPanel();
             MainBackground.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
             tableLayoutPanel3.SuspendLayout();
@@ -174,7 +174,7 @@
             categoryBtn3.Size = new Size(230, 32);
             categoryBtn3.TabIndex = 3;
             categoryBtn3.TabStop = false;
-            categoryBtn3.Text = "Pantries";
+            categoryBtn3.Text = "Pastries";
             categoryBtn3.TextAlign = ContentAlignment.MiddleLeft;
             categoryBtn3.UseVisualStyleBackColor = true;
             // 
@@ -209,6 +209,7 @@
             categoryBtn1.Text = "Top Picks";
             categoryBtn1.TextAlign = ContentAlignment.MiddleLeft;
             categoryBtn1.UseVisualStyleBackColor = true;
+            categoryBtn1.Click += categoryBtn1_Click;
             // 
             // categoryBtn4
             // 
@@ -263,6 +264,22 @@
             tableLayoutPanel4.Size = new Size(291, 326);
             tableLayoutPanel4.TabIndex = 3;
             // 
+            // MenuGrid
+            // 
+            MenuGrid.ColumnCount = 3;
+            MenuGrid.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
+            MenuGrid.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
+            MenuGrid.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
+            MenuGrid.Dock = DockStyle.Fill;
+            MenuGrid.Location = new Point(3, 71);
+            MenuGrid.Name = "MenuGrid";
+            MenuGrid.RowCount = 3;
+            MenuGrid.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
+            MenuGrid.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
+            MenuGrid.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
+            MenuGrid.Size = new Size(285, 183);
+            MenuGrid.TabIndex = 0;
+            // 
             // CategoryDisplayLabel
             // 
             CategoryDisplayLabel.AutoSize = true;
@@ -283,22 +300,6 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(794, 106);
             panel1.TabIndex = 1;
-            // 
-            // MenuGrid
-            // 
-            MenuGrid.ColumnCount = 3;
-            MenuGrid.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
-            MenuGrid.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
-            MenuGrid.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
-            MenuGrid.Dock = DockStyle.Fill;
-            MenuGrid.Location = new Point(3, 71);
-            MenuGrid.Name = "MenuGrid";
-            MenuGrid.RowCount = 3;
-            MenuGrid.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
-            MenuGrid.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
-            MenuGrid.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
-            MenuGrid.Size = new Size(285, 183);
-            MenuGrid.TabIndex = 0;
             // 
             // Form1
             // 
